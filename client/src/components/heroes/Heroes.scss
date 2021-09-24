@@ -1,0 +1,24 @@
+@use '../../partials/typography.scss' as *;
+
+.heroes {
+    height: 100%;
+    font-family: 'Roboto';
+
+    &__img {
+        height: 10rem;
+        width: 5rem;
+        object-fit: contain;
+    }
+}
+
+.ana-heals {
+    background-color: rgba(124, 110, 94, 0.7);
+
+    &__name {
+        color: wheat;
+    }
+}
+
+.ana-heals__name {
+    font-family: 'BigNoodleTitling', sans-serif;
+}

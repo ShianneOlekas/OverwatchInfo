@@ -1,0 +1,28 @@
+.icon {
+    height: 5rem;
+    width: 5rem;
+    margin: 1rem;
+    object-fit: contain;
+
+    &__line-one {
+        display: flex;
+        justify-content: center;
+        margin-top: 10rem;
+    }
+}
+
+.banner {
+    width: 80vw;
+    height: 20rem;
+    margin-top: 10%;
+    background-color: gray;
+    transition: opacity 0.1s;
+
+    &__one {
+        background-image: url('../../assets/images/Logo-burst-facebook.16tqv.jpg');
+    }
+
+    &__two {
+        background-image: url('../../assets/images/Lineup-facebook.0Bcoz.jpg');
+    }
+}
