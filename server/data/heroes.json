@@ -12,6 +12,7 @@
   },
   
   {"name" : "Elizabeth Caledonia 'Calamity' Ashe",
+    "image":"http://localhost:8080/images/Ashe.png",
     "age" : "39",
     "occupation": "Thief, Gang Leader",
     "origin": "Deadlock Gorge, Arizona, USA",

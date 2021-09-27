@@ -5,9 +5,30 @@ import sigmaIcon from '../../assets/icons/Abilities-sigma5.png';
 import doomfistIcon from '../../assets/icons/Ability_Doomfist_Meteor_Strike.png';
 import moiraIcon from '../../assets/icons/Ability_Moira_Fade.png';
 import orisaIcon from '../../assets/icons/Ability_Orisa_Supercharger.png'
+import React, { Component } from 'react';
 
-function IconScroll() {
+class IconScroll extends Component {
 
+    constructor(props) {
+        super(props);
+        this.scrollRef = React.createRef();
+    }
+
+    componentDidMount() {
+    const checkpoint = 600;
+
+    window.addEventListener('scroll', () => {
+        const currentScroll = window.scrollY ;
+        
+        const myElement = this.scrollRef.current
+        if (myElement) {
+            const opacity = 1.2 - currentScroll / checkpoint
+            myElement.style.opacity = opacity
+        }
+    });
+    }
+
+render() {
     const moiraScroll = 
     <Parallax
         y={[20, -500]}
@@ -31,30 +52,18 @@ function IconScroll() {
 
     const doomfistScroll = 
     <Parallax
-        y={[-10, -200]}
+        y={[10, -400]}
     >
         <img src={doomfistIcon} className='icon icon__doomfist'/>
     </Parallax>
 
     const orisaScroll = 
     <Parallax
-        y={[-20, -100]}
+        y={[20, -500]}
     >
         <img src={orisaIcon} className='icon icon__orisa'/>
     </Parallax>
 
-    // const checkpoint = 300;
-
-    // window.addEventListener('scroll', () => {
-    //     const currentScroll = window.scrollY;
-    //     const opacity = document.querySelector('.front').style.opacity;
-    //     if (currentScroll <= checkpoint) {
-    //         opacity = 1 - currentScroll / checkpoint;
-    //     } else {
-    //         opacity = 0;
-    //     }
-        
-    // });
 
     return (
         <section>
@@ -66,11 +75,12 @@ function IconScroll() {
                 {orisaScroll}
             </div>
             <div className='banner'>
-                <div className='banner__one'></div>
-                <div className='banner__two front'></div>
+                <div className='banner__one' ref={this.scrollRef}></div>
+                <div className='banner__two' ></div>
             </div>
         </section>
     );
+ }
 }
 
 export default IconScroll;
