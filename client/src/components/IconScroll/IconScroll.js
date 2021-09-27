@@ -4,7 +4,9 @@ import anaIcon from '../../assets/icons/Ability-ana2.png';
 import sigmaIcon from '../../assets/icons/Abilities-sigma5.png';
 import doomfistIcon from '../../assets/icons/Ability_Doomfist_Meteor_Strike.png';
 import moiraIcon from '../../assets/icons/Ability_Moira_Fade.png';
-import orisaIcon from '../../assets/icons/Ability_Orisa_Supercharger.png'
+import orisaIcon from '../../assets/icons/Ability_Orisa_Supercharger.png';
+import sombraIcon from '../../assets/icons/Ability_Sombra_EMP.png';
+import symmetraIcon from '../../assets/icons/Ability_Symmetra_Shield_Generator.png';
 import React, { Component } from 'react';
 
 class IconScroll extends Component {
@@ -29,6 +31,13 @@ class IconScroll extends Component {
     }
 
 render() {
+    const sombraScroll = 
+    <Parallax
+        y={[20, -550]}
+    >
+        <img src={sombraIcon} className='icon icon__sombra'/>
+    </Parallax>
+
     const moiraScroll = 
     <Parallax
         y={[20, -500]}
@@ -64,15 +73,23 @@ render() {
         <img src={orisaIcon} className='icon icon__orisa'/>
     </Parallax>
 
+    const symmetraScroll = 
+    <Parallax
+        y={[20, -550]}
+    >
+        <img src={symmetraIcon} className='icon icon__symmetra'/>
+    </Parallax>
 
     return (
-        <section>
+        <section className='landing-scroll'>
             <div className='icon__line-one'>
+                {sombraScroll}
                 {moiraScroll}
                 {anaScroll}
                 {sigmaScroll}
                 {doomfistScroll}
                 {orisaScroll}
+                {symmetraScroll}
             </div>
             <div className='banner'>
                 <div className='banner__one' ref={this.scrollRef}></div>
