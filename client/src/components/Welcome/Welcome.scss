@@ -1,0 +1,63 @@
+@keyframes fadeIn {
+    from { opacity: 0;}
+    to {opacity: 1;}
+}
+
+.welcome {
+    height: 200vh;
+    background-color: rgba(0, 0, 0, 0.904);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__title {
+        margin: 0;
+        padding-top: 5rem;
+        font-family: 'BigNoodleTitling';
+        color: white;
+        font-size: 7rem;
+        animation: fadeIn linear 3s;
+    }
+}
+
+.letters {
+    color: white;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+
+    &__overwatch {
+        margin: 0.2em 0;
+        width: 30rem;
+        text-align: center;
+    }
+
+    &__individual {
+        display: inline-block;
+        position: relative;
+        font-size: 3rem;
+        text-transform: uppercase;
+        font-family: 'BigNoodleTitling';
+    }
+
+    &__top {
+        margin-left: 0.8em;
+        width: 30em;
+        height: 1.5em;
+        border-top: 0.45em solid white;
+        border-bottom: 0.45em solid white;
+        transform: skew(-10deg);
+    }
+
+    &__bottom {
+        width: 30em;
+        height: 1.5em;
+        border-top: 0.45em solid white;
+        border-bottom: 0.45em solid white;
+        transform: skew(-10deg);
+        margin-left: 0;
+        margin-right: 0.8em;
+    }
+}

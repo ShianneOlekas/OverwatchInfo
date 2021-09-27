@@ -1,10 +1,13 @@
 import './App.css';
+import { ParallaxProvider } from 'react-scroll-parallax';
+// import { BrowserRouter, Switch, Route } from "react-router-dom";
+import Main from './pages/Main/Main';
 
 function App() {
   return (
-    <div className="App">
-      overwatch characters
-    </div>
+    <ParallaxProvider>
+      <Main />
+    </ParallaxProvider>
   );
 }
 

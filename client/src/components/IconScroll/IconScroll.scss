@@ -1,0 +1,38 @@
+.icon {
+    height: 5rem;
+    width: 5rem;
+    margin: 1rem;
+    object-fit: contain;
+
+    &__line-one {
+        display: flex;
+        justify-content: center;
+        margin-top: 10rem;
+    }
+}
+
+.banner {
+    width: 55vw;
+    height: 19rem;
+    margin-top: 10%;
+    background-color: gray;
+    transition: 0.1s;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 'a';
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+    &__one {
+        background-image: url('../../assets/images/Logo-burst-facebook.16tqv.jpg');
+        grid-area: a;
+    }
+
+    &__two {
+        background-image: url('../../assets/images/Lineup-facebook.0Bcoz.jpg');
+        grid-area: a;
+    }
+}
