@@ -1,8 +1,28 @@
 @use '../../partials/typography.scss' as *;
 
+.all-heroes {
+    background-image: url('../../assets/images/Kings_Row.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 2rem;
+}
+
 .heroes {
     font-family: 'Roboto';
-    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 4rem;
+    margin: 10rem 0;
+    border-radius: 3rem;
+    height: 100%;
+
+    &__container {
+        display: flex;
+        align-items: center;
+        margin-bottom: 2.5rem;
+    }
+    
 
     &__img {
         height: 25rem;
@@ -23,7 +43,6 @@
 
     &__age {
         font-size: 2rem;
-        margin-top: 1rem;
     }
 
     &__info-container {
@@ -36,42 +55,130 @@
 }
 
 .ana-heals {
-    background-color: rgba(124, 110, 94, 0.555);
-    height: 100%;
+    background-color: rgba(124, 110, 94, 0.855);
+    margin-top: 0;
 }
 
 .ashe-dps {
-    background-color: rgba(126, 126, 126, 0.616);
+    background-color: rgba(126, 126, 126, 0.816);
 }
 
 .baptiste-heals {
-    background-color: rgba(0, 107, 139, 0.507);
+    background-color: rgba(0, 107, 139, 0.807);
 }
 
 .bastion-dps {
-    background-color: rgba(27, 87, 15, 0.507);
+    background-color: rgba(156, 245, 138, 0.807);
 }
 
 .brigitte-heals {
-    background-color: rgba(155, 114, 1, 0.507);
+    background-color: rgba(241, 213, 136, 0.807);
 }
 
 .dva-tank {
-    background-color: rgba(134, 53, 101, 0.507);
+    background-color: rgba(207, 133, 178, 0.807);
 }
 
 .doomfist-dps {
-    background-color: rgba(61, 0, 0, 0.849);
+    background-color: rgba(177, 173, 152, 0.849);
 }
 
 .echo-dps {
-    background-color: rgba(155, 224, 224, 0.486)
+    background-color: rgba(155, 224, 224, 0.886)
 }
 
 .genji-dps {
-    background-color: rgba(157, 224, 155, 0.486)
+    background-color: rgba(157, 224, 155, 0.786)
 }
 
 .hanzo-dps {
-    background-color: rgba(5, 7, 121, 0.274)
+    background-color: rgba(102, 109, 131, 0.785)
+}
+
+.junkrat-dps {
+    background-color: rgba(190, 148, 57, 0.785)
+}
+
+.lucio-heals {
+    background-color: rgba(119, 233, 124, 0.785)
+}
+
+.mccree-dps {
+    background-color: rgba(180, 158, 115, 0.785)
+}
+
+.mei-dps {
+    background-color: rgba(156, 227, 245, 0.792)
+}
+
+.mercy-heals {
+    background-color: rgba(249, 250, 177, 0.767)
+}
+
+.moira-heals {
+    background-color: rgba(149, 99, 206, 0.767)
+}
+
+.orisa-tank {
+    background-color: rgba(155, 180, 114, 0.707);
+}
+
+.pharah-dps {
+    background-color: rgba(100, 161, 218, 0.707);
+}
+
+.reaper-dps {
+    background-color: rgba(122, 122, 122, 0.708);
+}
+
+.reinhardt-tank {
+    background-color: rgba(235, 235, 235, 0.807);
+}
+
+.roadhog-tank {
+    background-color: rgba(86, 88, 110, 0.807);
+}
+
+.sigma-tank {
+    background-color: rgba(120, 165, 148, 0.807);
+}
+
+.soldier-dps {
+    background-color: rgba(154, 155, 216, 0.708);
+}
+
+.sombra-dps {
+    background-color: rgba(155, 114, 160, 0.708);
+}
+
+.symmetra-dps {
+    background-color: rgba(101, 136, 150, 0.708);
+}
+
+.torbjorn-dps {
+    background-color: rgba(238, 109, 109, 0.708);
+}
+
+.tracer-dps {
+    background-color: rgba(236, 207, 76, 0.708);
+}
+
+.widow-dps {
+    background-color: rgba(194, 149, 231, 0.708);
+}
+
+.winston-tank {
+    background-color: rgba(179, 177, 156, 0.807);
+}
+
+.wreckingball-tank {
+    background-color: rgba(255, 201, 140, 0.807);
+}
+
+.zarya-tank {
+    background-color: rgba(248, 175, 220, 0.807);
+}
+
+.zenyatta-heals {
+    background-color: rgba(219, 216, 168, 0.807);
 }

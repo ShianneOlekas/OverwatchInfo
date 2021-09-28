@@ -1,5 +1,6 @@
 [
   {"name" : "Ana Amari",
+    "id" : "1",
     "image":"http://localhost:8080/images/Ana.png",
     "age" : "60",
     "occupation": "Bounty Hunter",
@@ -11,6 +12,7 @@
   },
   
   {"name" : "Elizabeth Caledonia 'Calamity' Ashe",
+    "id" : "2",
     "image":"http://localhost:8080/images/Ashe.png",
     "age" : "39",
     "occupation": "Thief, Gang Leader",
@@ -22,6 +24,7 @@
   },
   {
     "name" : "Jean-Baptiste Augustin",
+    "id" : "3",
     "image":"http://localhost:8080/images/Baptiste.png",
     "age" : "36",
     "occupation": "Combat Medic",
@@ -33,6 +36,7 @@
   },
   {
     "name" : "SST Laboratories Siege Automaton E54, 'Bastion'",
+    "id" : "4",
     "image":"http://localhost:8080/images/Bastion.png",
     "age" : "30",
     "occupation": "Battle Automaton",
@@ -44,6 +48,7 @@
   },
   {
     "name" : "Brigitte Lindholm",
+    "id" : "5",
     "image":"http://localhost:8080/images/Brigitte.png",
     "age" : "23",
     "occupation": "Mechanical Engineer, Adventurer",
@@ -55,6 +60,7 @@
   },
   {
     "name" : "Hana Song",
+    "id" : "6",
     "image":"http://localhost:8080/images/Dva.png",
     "age" : "19",
     "occupation": "Pro Gamer, Mech Pilot",
@@ -66,6 +72,7 @@
   },
   {
     "name" : "Akande Ogundimu",
+    "id" : "7",
     "image":"http://localhost:8080/images/Doomfist.png",
     "age" : "45",
     "occupation": "Mercenary",
@@ -77,6 +84,7 @@
   },
   {
     "name" : "Echo",
+    "id" : "8",
     "image":"http://localhost:8080/images/Echo.png",
     "age" : "Classified",
     "occupation": "Multirole Adaptive Robot",
@@ -88,6 +96,7 @@
   },
   {
     "name" : "Genji Shimada",
+    "id" : "9",
     "image":"http://localhost:8080/images/Genji.png",
     "age" : "35",
     "occupation": "Adventurer",
@@ -99,6 +108,7 @@
   },
   {
     "name" : "Hanzo Shimada",
+    "id" : "10",
     "image":"http://localhost:8080/images/Hanzo.png",
     "age" : "38",
     "occupation": "Mercenary, Assassin",
@@ -110,200 +120,266 @@
   },
   {
     "name" : "Jamison Fawkes",
+    "id" : "11",
+    "image":"http://localhost:8080/images/Junkrat.png",
     "age" : "25",
     "occupation": "Anarchist, Thief, Demolitionist, Mercenary, Scavenger",
     "origin": "Junkertown, Australia",
     "affiliation": "Junkers",
     "tagline": "IT'S A PERFECT DAY FOR SOME MAYHEM.",
-    "backstory" : "The attack on the Australian omnium's fusion core forever altered the landscape of the Outback. After the detonation, the area was transformed into a harsh, irradiated wasteland, littered with debris and the twisted fragments of the ruined facility, and unlivable to most. But there were some who survived. Calling themselves the Junkers, they scavenged the husk of the omnium and formed a lawless, cutthroat society in its shadow. Junkrat was one of them, eking out a living reclaiming metal and components from the ruins. Like many others, he was affected by the lingering radiation. This touch of madness made him ideal for handling dangerous explosives, a love which he turned into an obsession. He came to notoriety when he discovered an extremely valuable secret in the bones of the omnium. Though few knew the nature of what he found, he was nonetheless pursued by bounty hunters, gangs, and opportunists wherever he went, until he made a deal with the Junker enforcer Roadhog, who grudgingly agreed to be his personal bodyguard in exchange for a fifty-fifty share of the spoils. Now, with Roadhog in tow, Junkrat has left the Outback, and embarked upon an international crime spree leaving nothing but havoc and bedlam in his wake."
+    "backstory" : "The attack on the Australian omnium's fusion core forever altered the landscape of the Outback. After the detonation, the area was transformed into a harsh, irradiated wasteland, littered with debris and the twisted fragments of the ruined facility, and unlivable to most. But there were some who survived. Calling themselves the Junkers, they scavenged the husk of the omnium and formed a lawless, cutthroat society in its shadow. Junkrat was one of them, eking out a living reclaiming metal and components from the ruins. Like many others, he was affected by the lingering radiation. This touch of madness made him ideal for handling dangerous explosives, a love which he turned into an obsession. He came to notoriety when he discovered an extremely valuable secret in the bones of the omnium. Though few knew the nature of what he found, he was nonetheless pursued by bounty hunters, gangs, and opportunists wherever he went, until he made a deal with the Junker enforcer Roadhog, who grudgingly agreed to be his personal bodyguard in exchange for a fifty-fifty share of the spoils. Now, with Roadhog in tow, Junkrat has left the Outback, and embarked upon an international crime spree leaving nothing but havoc and bedlam in his wake.",
+    "styleClass": "junkrat-dps"
   },
   {
     "name" : "Lúcio Correia dos Santos",
+    "id" : "12",
+    "image":"http://localhost:8080/images/Lucio.png",
     "age" : "26",
     "occupation": "DJ, Freedom Fighter",
     "origin": "Rio de Janeiro, Brazil",
     "affiliation": "None",
     "tagline": "COME ON, LET’S BRING IT TOGETHER!",
-    "backstory" : "Lúcio is an international celebrity who inspires social change through his music and actions. Growing up in Rio de Janeiro, in a poor and crowded favela that was hit hard by the financial upheaval following the Omnic Crisis. As Brazil began the long process of recovery, he wanted to find a way to lift the spirits of those around him. He found his answer in music and its power to bring people together and even help them forget their troubles, if only for a short time. But Lúcio's close-knit community was thrown into chaos when the multinational Vishkar Corporation secured a contract to redevelop large tracts of the city. Lúcio and his neighbors had been told that the development would improve their lives. However, that promise never became a reality. Vishkar imposed controls on the residents in the name of building a more orderly society: enforcing curfews, cracking down on what the company perceived as lawless behavior, and exploiting the populace as a cheap labor force. Lúcio stole Vishkar sonic technology that had been used to suppress the people, and he converted it into a tool to rally them to action. In a popular uprising, they drove Vishkar out of their neighborhoods. Lúcio's leadership made him a star overnight and a symbol for positive social change."
+    "backstory" : "Lúcio is an international celebrity who inspires social change through his music and actions. Growing up in Rio de Janeiro, in a poor and crowded favela that was hit hard by the financial upheaval following the Omnic Crisis. As Brazil began the long process of recovery, he wanted to find a way to lift the spirits of those around him. He found his answer in music and its power to bring people together and even help them forget their troubles, if only for a short time. But Lúcio's close-knit community was thrown into chaos when the multinational Vishkar Corporation secured a contract to redevelop large tracts of the city. Lúcio and his neighbors had been told that the development would improve their lives. However, that promise never became a reality. Vishkar imposed controls on the residents in the name of building a more orderly society: enforcing curfews, cracking down on what the company perceived as lawless behavior, and exploiting the populace as a cheap labor force. Lúcio stole Vishkar sonic technology that had been used to suppress the people, and he converted it into a tool to rally them to action. In a popular uprising, they drove Vishkar out of their neighborhoods. Lúcio's leadership made him a star overnight and a symbol for positive social change.",
+    "styleClass": "lucio-heals"
   },
   {
     "name" : "Jesse McCree",
+    "id" : "13",
+    "image":"http://localhost:8080/images/Mccree.png",
     "age" : "37",
     "occupation": "Jesse McCree",
     "origin": "Santa Fe, New Mexico, USA",
     "affiliation": "Overwatch",
     "tagline": "JUSTICE AIN'T GONNA DISPENSE ITSELF.",
-    "backstory" : "McCree had already made a name for himself as a member of the notorious Deadlock Gang, which trafficked in illicit weapons and military hardware throughout the American Southwest, when he and his associates were busted in an Overwatch sting operation. With his expert marksmanship and resourcefulness, he was given the choice between rotting in a maximum-security lockup and joining Blackwatch, Overwatch's covert ops division. He chose the latter. As Overwatch's influence waned, rogue elements within Blackwatch sought to bring down the organization and turn it to their own ends. Wanting no part of the infighting, McCree set off alone and went underground."
+    "backstory" : "McCree had already made a name for himself as a member of the notorious Deadlock Gang, which trafficked in illicit weapons and military hardware throughout the American Southwest, when he and his associates were busted in an Overwatch sting operation. With his expert marksmanship and resourcefulness, he was given the choice between rotting in a maximum-security lockup and joining Blackwatch, Overwatch's covert ops division. He chose the latter. As Overwatch's influence waned, rogue elements within Blackwatch sought to bring down the organization and turn it to their own ends. Wanting no part of the infighting, McCree set off alone and went underground.",
+    "styleClass": "mccree-dps"
   },
   {
     "name" : "Mei-Ling Zhou",
+    "id" : "14",
+    "image":"http://localhost:8080/images/Mei.png",
     "age" : "31",
     "occupation": "Climatologist, Adventurer",
     "origin": "Xi’an, China",
     "affiliation": "Overwatch",
     "tagline": "OUR WORLD IS WORTH FIGHTING FOR.",
-    "backstory" : "To find a solution to an unexplained climate phenomena, Overwatch established a series of eco-Watchpoints at remote, critical locations worldwide. Mei was assigned to the program's monitoring station at Watchpoint: Antarctica when disaster struck: a sudden, catastrophic polar storm battered the installation and cut it off from the outside world, leaving the facility damaged and the scientists stranded. As their supplies dwindled, they entered cryostasis in a last-ditch effort to survive until a rescue attempt could be made. Mei, still in hibernation, was the only survivor. The world Mei awoke to had gone through considerable changes: Overwatch was no more, the serious climate issues had worsened, and none of the eco-Watchpoints were in operation. Any clues that they had uncovered were lost. Mei has decided to continue her work on her own. Equipped with a portable version of her climate-manipulation technology, she travels around the world, hoping to re-establish the eco-network and track down the causes of the threats to the planet's ecosystem."
+    "backstory" : "To find a solution to an unexplained climate phenomena, Overwatch established a series of eco-Watchpoints at remote, critical locations worldwide. Mei was assigned to the program's monitoring station at Watchpoint: Antarctica when disaster struck: a sudden, catastrophic polar storm battered the installation and cut it off from the outside world, leaving the facility damaged and the scientists stranded. As their supplies dwindled, they entered cryostasis in a last-ditch effort to survive until a rescue attempt could be made. Mei, still in hibernation, was the only survivor. The world Mei awoke to had gone through considerable changes: Overwatch was no more, the serious climate issues had worsened, and none of the eco-Watchpoints were in operation. Any clues that they had uncovered were lost. Mei has decided to continue her work on her own. Equipped with a portable version of her climate-manipulation technology, she travels around the world, hoping to re-establish the eco-network and track down the causes of the threats to the planet's ecosystem.",
+    "styleClass": "mei-dps"
   },
   {
     "name" : "Angela Ziegler",
+    "id" : "15",
+    "image":"http://localhost:8080/images/Mercy.png",
     "age" : "37",
     "occupation": "Field Medic, First Responder",
     "origin": "Zürich, Switzerland",
     "affiliation": "Overwatch",
     "tagline": "HEROES NEVER DIE.",
-    "backstory" : "Ziegler rose to become the head of surgery at a prominent Swiss hospital before pioneering a breakthrough in the field of applied nanobiology that radically improved the treatment of life-threatening illnesses and injuries. It was this expertise that attracted the attention of Overwatch. Because her parents had been taken by war, Ziegler was opposed to the organization's militaristic approach to keeping global peace. Ultimately, she recognized that Overwatch offered her the opportunity to save lives on a much larger scale. As Overwatch's head of medical research, Angela sought to leverage her work for healing in frontline crises. The result was the Valkyrie swift-response suit, which Ziegler herself piloted on many Overwatch missions. When Overwatch dissolved, Ziegler dedicated herself to helping those affected by war."
+    "backstory" : "Ziegler rose to become the head of surgery at a prominent Swiss hospital before pioneering a breakthrough in the field of applied nanobiology that radically improved the treatment of life-threatening illnesses and injuries. It was this expertise that attracted the attention of Overwatch. Because her parents had been taken by war, Ziegler was opposed to the organization's militaristic approach to keeping global peace. Ultimately, she recognized that Overwatch offered her the opportunity to save lives on a much larger scale. As Overwatch's head of medical research, Angela sought to leverage her work for healing in frontline crises. The result was the Valkyrie swift-response suit, which Ziegler herself piloted on many Overwatch missions. When Overwatch dissolved, Ziegler dedicated herself to helping those affected by war.",
+    "styleClass": "mercy-heals"
   },
   {
     "name" : "Moira O’Deorain",
+    "id" : "16",
+    "image":"http://localhost:8080/images/Moira.png",
     "age" : "48",
     "occupation": "Geneticist",
     "origin": "Dublin, Ireland; Oasis, Iraq",
     "affiliation": "Talon; Blackwatch",
     "tagline": "SCIENCE WILL REVEAL THE TRUTH.",
-    "backstory" : "Over a decade ago, O'Deorain made waves when she published a controversial paper detailing a methodology for creating custom genetic programs that could alter DNA at a cellular level. Many considered her work to be dangerous because of its perceived ethical shortfalls, and O'Deorain was even accused of having the same unchecked desire for scientific advancement that some believed had caused the Omnic Crisis. She received a lifeline in an offer from an unlikely source: Overwatch's covert ops division, Blackwatch. She continued her work in the shadows while developing new weapons and technologies for the organization. Her employment was a closely kept secret, until it was uncovered during inquiries following the Venice incident. After Overwatch was disbanded, O'Deorain was forced to turn to unconventional sources of funding. This time, she was invited to join the scientific collective that had founded the city of Oasis. Yet some have whispered that the shadowy Talon organization had already been supporting her for years, aiding her experiments in exchange for utilizing the results for their own purposes."
+    "backstory" : "Over a decade ago, O'Deorain made waves when she published a controversial paper detailing a methodology for creating custom genetic programs that could alter DNA at a cellular level. Many considered her work to be dangerous because of its perceived ethical shortfalls, and O'Deorain was even accused of having the same unchecked desire for scientific advancement that some believed had caused the Omnic Crisis. She received a lifeline in an offer from an unlikely source: Overwatch's covert ops division, Blackwatch. She continued her work in the shadows while developing new weapons and technologies for the organization. Her employment was a closely kept secret, until it was uncovered during inquiries following the Venice incident. After Overwatch was disbanded, O'Deorain was forced to turn to unconventional sources of funding. This time, she was invited to join the scientific collective that had founded the city of Oasis. Yet some have whispered that the shadowy Talon organization had already been supporting her for years, aiding her experiments in exchange for utilizing the results for their own purposes.",
+    "styleClass": "moira-heals"
   },
   {
     "name" : "Orisa",
+    "id" : "17",
+    "image":"http://localhost:8080/images/Orisa.png",
     "age" : "1 month",
     "occupation": "Guardian Robot",
     "origin": "Numbani",
     "affiliation": "None",
     "tagline": "YOUR SAFETY IS MY PRIMARY CONCERN.",
-    "backstory" : "Built from parts of one of Numbani's short-lived OR15 defense robots. Originally put into service before the Omnic Crisis, the OR14 'Idina' line of security robots was built in Nigeria's massive manufacturing omnium. After the war, they were taken out of production. Twenty years later, Numbani revived and recommissioned the OR14 program to protect the city from external threats. These new OR15s were deployed for a short time before they were destroyed in an attack by Doomfist. Following the attack, the program was scrapped, and the civic government sold off the remaining OR15 inventory. Some parts were purchased by eleven-year-old Efi Oladele, a brilliant girl whose early accomplishments in robotics and artificial intelligence had already earned her the Adawe Foundation's genius grant. Efi repaired and reconfigured the robot and installed a personality core that she had designed herself. She named Numbani's newest hero Orisa."
+    "backstory" : "Built from parts of one of Numbani's short-lived OR15 defense robots. Originally put into service before the Omnic Crisis, the OR14 'Idina' line of security robots was built in Nigeria's massive manufacturing omnium. After the war, they were taken out of production. Twenty years later, Numbani revived and recommissioned the OR14 program to protect the city from external threats. These new OR15s were deployed for a short time before they were destroyed in an attack by Doomfist. Following the attack, the program was scrapped, and the civic government sold off the remaining OR15 inventory. Some parts were purchased by eleven-year-old Efi Oladele, a brilliant girl whose early accomplishments in robotics and artificial intelligence had already earned her the Adawe Foundation's genius grant. Efi repaired and reconfigured the robot and installed a personality core that she had designed herself. She named Numbani's newest hero Orisa.",
+    "styleClass": "orisa-tank"
   },
   {
     "name" : "Fareeha Amari",
+    "id" : "18",
+    "image":"http://localhost:8080/images/Pharah.png",
     "age" : "32",
     "occupation": "Security Chief",
     "origin": "Giza, Egypt",
     "affiliation": "Helix Security International",
     "tagline": "I WILL PROTECT THE INNOCENT.",
-    "backstory" : "As a child, Fareeha dreamed of following in her mother's (Ana Amari) footsteps and joining the global peacekeeping force, Overwatch. She enlisted in the Egyptian army, and her dogged persistence and tactical prowess caused her to rise up through the officer ranks. With her exemplary record, Fareeha was well placed to join the ranks of Overwatch, but before she had that opportunity, Overwatch was disbanded. After leaving the army with a commendation for distinguished service, she was offered employment with Helix Security International, a private security firm contracted to defend the artificial intelligence research facility beneath the Giza Plateau. The top-secret facility was touted as vital to the safety of not only the region but countries across the globe. Fareeha gladly accepted the choice assignment and received training in the Raptora Mark VI, an experimental combat suit designed for rapid mobility and devastating firepower."
+    "backstory" : "As a child, Fareeha dreamed of following in her mother's (Ana Amari) footsteps and joining the global peacekeeping force, Overwatch. She enlisted in the Egyptian army, and her dogged persistence and tactical prowess caused her to rise up through the officer ranks. With her exemplary record, Fareeha was well placed to join the ranks of Overwatch, but before she had that opportunity, Overwatch was disbanded. After leaving the army with a commendation for distinguished service, she was offered employment with Helix Security International, a private security firm contracted to defend the artificial intelligence research facility beneath the Giza Plateau. The top-secret facility was touted as vital to the safety of not only the region but countries across the globe. Fareeha gladly accepted the choice assignment and received training in the Raptora Mark VI, an experimental combat suit designed for rapid mobility and devastating firepower.",
+    "styleClass": "pharah-dps"
   },
   {
-    "name" : "Unknown",
-    "age" : "Unknown",
+    "name" : "Gabriel Reyes",
+    "id" : "19",
+    "image":"http://localhost:8080/images/Reaper.png",
+    "age" : "58",
     "occupation": "Mercenary",
-    "origin": "Unknown",
-    "affiliation": "Unknown",
+    "origin": "Los Angeles, California",
+    "affiliation": "United States Military, Talon, Overwatch (formerly)",
     "tagline": "DEATH WALKS AMONG YOU.",
-    "backstory" : "Some speak of a black-robed terrorist known only as the Reaper. His identity and motives are a mystery. What is known is that where he appears, death follows. The Reaper is an extremely volatile mercenary, a ruthless and remorseless killer responsible for terrorist attacks across the world. He has fought in many armed conflicts in the last decades, showing no loyalty to any cause or organization. Survivors have described a black shadow ghosting unscathed through the most hellish battlefields. The few bodies recovered of those he kills are pale, empty husks drained of life, their cells showing signs of intense degradation. It is possible that he is a byproduct of failed genetic alteration which forces his cells to simultaneously decay and regenerate at a hyper-accelerated rate. Those attempting to track his movements have begun to see a pattern in his appearances. They believe that Reaper is hunting former Overwatch agents and systematically eliminating them."
+    "backstory" : "Some speak of a black-robed terrorist known only as the Reaper. His identity and motives are a mystery. What is known is that where he appears, death follows. The Reaper is an extremely volatile mercenary, a ruthless and remorseless killer responsible for terrorist attacks across the world. He has fought in many armed conflicts in the last decades, showing no loyalty to any cause or organization. Survivors have described a black shadow ghosting unscathed through the most hellish battlefields. The few bodies recovered of those he kills are pale, empty husks drained of life, their cells showing signs of intense degradation. It is possible that he is a byproduct of failed genetic alteration which forces his cells to simultaneously decay and regenerate at a hyper-accelerated rate. Those attempting to track his movements have begun to see a pattern in his appearances. They believe that Reaper is hunting former Overwatch agents and systematically eliminating them.",
+    "styleClass": "reaper-dps"
   },
   {
     "name" : "Reinhardt Wilhelm",
+    "id" : "20",
+    "image":"http://localhost:8080/images/Reinhardt.png",
     "age" : "61",
     "occupation": "Adventurer",
     "origin": "Stuttgart, Germany",
     "affiliation": "Overwatch",
     "tagline": "JUSTICE WILL BE DONE.",
-    "backstory" : "Over thirty years ago, Overwatch was founded to counter the threat of the robot uprisings around the world. Reinhardt, a highly decorated German soldier, was inducted as part of the original Overwatch strike team that put an end to the Omnic Crisis. Having served into his late fifties, Reinhardt was faced with mandatory retirement from combat operations. Despondent about being removed from active duty, Reinhardt feared that his days of purpose and glory had ended. As times grew darker and Overwatch came under suspicion of corruption and sedition, Reinhardt could only watch as the cause he had dedicated his life to defending surrendered in disgrace. Though Overwatch was eventually disbanded, Reinhardt was not content to sit idly by while the world fell to disorder. Once again donning his Crusader armor, he has vowed to fight for justice across Europe like a knight of old, defending the innocent and winning hearts and minds with the promise of better days to come."
+    "backstory" : "Over thirty years ago, Overwatch was founded to counter the threat of the robot uprisings around the world. Reinhardt, a highly decorated German soldier, was inducted as part of the original Overwatch strike team that put an end to the Omnic Crisis. Having served into his late fifties, Reinhardt was faced with mandatory retirement from combat operations. Despondent about being removed from active duty, Reinhardt feared that his days of purpose and glory had ended. As times grew darker and Overwatch came under suspicion of corruption and sedition, Reinhardt could only watch as the cause he had dedicated his life to defending surrendered in disgrace. Though Overwatch was eventually disbanded, Reinhardt was not content to sit idly by while the world fell to disorder. Once again donning his Crusader armor, he has vowed to fight for justice across Europe like a knight of old, defending the innocent and winning hearts and minds with the promise of better days to come.",
+    "styleClass": "reinhardt-tank"
   },
   {
     "name" : "Mako Rutledge",
+    "id" : "21",
+    "image":"http://localhost:8080/images/Roadhog.png",
     "age" : "48",
     "occupation": "Enforcer (formerly), Bodyguard",
     "origin": "Junkertown, Australia",
     "affiliation": "Junkers",
     "tagline": "I'M A ONE-MAN APOCALYPSE.",
-    "backstory" : "After the Omnic Crisis, government officials gifted the Australian omnium and the surrounding area to the omnics that had nearly destroyed their country, hoping to establish a long-term peace accord. This arrangement permanently displaced Mako Rutledge and a large number of the Outback's residents. Furious over the loss of their homes, Mako and others turned to violent rebellion. They formed the Australian Liberation Front and struck against the omnium and its robot population to take back the lands that had been stolen. Events continued to escalate until the rebels sabotaged the omnium's fusion core, resulting in an explosion that destroyed the facility, irradiated the region, and littered the Outback with twisted metal and wreckage for kilometers around. Adapting to his environment, he donned a mask and took to the broken highways of the Outback on his ramshackle chopper. Little by little, his humanity was forgotten. The last vestiges of Mako faded away and the ruthless killer Roadhog was born."
+    "backstory" : "After the Omnic Crisis, government officials gifted the Australian omnium and the surrounding area to the omnics that had nearly destroyed their country, hoping to establish a long-term peace accord. This arrangement permanently displaced Mako Rutledge and a large number of the Outback's residents. Furious over the loss of their homes, Mako and others turned to violent rebellion. They formed the Australian Liberation Front and struck against the omnium and its robot population to take back the lands that had been stolen. Events continued to escalate until the rebels sabotaged the omnium's fusion core, resulting in an explosion that destroyed the facility, irradiated the region, and littered the Outback with twisted metal and wreckage for kilometers around. Adapting to his environment, he donned a mask and took to the broken highways of the Outback on his ramshackle chopper. Little by little, his humanity was forgotten. The last vestiges of Mako faded away and the ruthless killer Roadhog was born.",
+    "styleClass": "roadhog-tank"
   },
   {
     "name" : "Siebren de Kuiper",
+    "id" : "22",
+    "image":"http://localhost:8080/images/Sigma.png",
     "age" : "62",
     "occupation": "Astrophysicist",
     "origin": "The Hague, Netherlands",
     "affiliation": "Talon",
     "tagline": "THERE IS NO OBLIGATION FOR THE UNIVERSE TO MAKE SENSE TO YOU.",
-    "backstory" : "Brilliant astrophysicist Dr. Siebren de Kuiper's life changed forever when an experiment gone wrong gave him the ability to control gravity; now, Talon manipulates him to their own ends. De Kuiper performed his most important experiment on an international space station. But something went wrong, triggering the brief formation of a black hole. De Kuiper was only exposed to its power for a moment, but he suffered serious psychological damage. Upon returning to Earth, De Kuiper was quarantined in a secret government facility. Between his ravings about the patterns of the universe, the psychic damage he sustained, and the gravitic anomalies happening around him, he was deemed unsafe and detained for years under the name 'Subject Sigma'. When Talon discovered De Kuiper's existence, they infiltrated the facility and broke him out, planning to use his brilliance and research to further their plans. In their custody, De Kuiper slowly gained control of his powers. De Kuiper continues to develop his powers in hopes of unlocking the secrets of the universe, unaware that Talon is using both him and his research."
+    "backstory" : "Brilliant astrophysicist Dr. Siebren de Kuiper's life changed forever when an experiment gone wrong gave him the ability to control gravity; now, Talon manipulates him to their own ends. De Kuiper performed his most important experiment on an international space station. But something went wrong, triggering the brief formation of a black hole. De Kuiper was only exposed to its power for a moment, but he suffered serious psychological damage. Upon returning to Earth, De Kuiper was quarantined in a secret government facility. Between his ravings about the patterns of the universe, the psychic damage he sustained, and the gravitic anomalies happening around him, he was deemed unsafe and detained for years under the name 'Subject Sigma'. When Talon discovered De Kuiper's existence, they infiltrated the facility and broke him out, planning to use his brilliance and research to further their plans. In their custody, De Kuiper slowly gained control of his powers. De Kuiper continues to develop his powers in hopes of unlocking the secrets of the universe, unaware that Talon is using both him and his research.",
+    "styleClass": "sigma-tank"
   },
   {
     "name" : "Jack Morrison",
-    "age" : "Unknown",
+    "id" : "23",
+    "image":"http://localhost:8080/images/Soldier76.png",
+    "age" : "55",
     "occupation": "Vigilante",
-    "origin": "Unknown",
+    "origin": "Bloomington, Indiana",
     "affiliation": "Overwatch",
     "tagline": "WE'RE ALL SOLDIERS NOW.",
-    "backstory" : "Currently the target of an international manhunt, the vigilante known as Soldier: 76 wages a personal war to expose the truth behind Overwatch's collapse. While his true identity remains a mystery, he is believed to have been trained as a member of the American 'soldier enhancement program'. He possesses physical capabilities exceeding those of a conventional soldier's, as well as other augmentations that make him a peerless combatant. In addition, he utilizes a cutting-edge arsenal, much of it stolen in raids on Overwatch installations."
+    "backstory" : "Currently the target of an international manhunt, the vigilante known as Soldier: 76 wages a personal war to expose the truth behind Overwatch's collapse. While his true identity remains a mystery, he is believed to have been trained as a member of the American 'soldier enhancement program'. He possesses physical capabilities exceeding those of a conventional soldier's, as well as other augmentations that make him a peerless combatant. In addition, he utilizes a cutting-edge arsenal, much of it stolen in raids on Overwatch installations.",
+    "styleClass": "soldier-dps"
   },
   {
     "name" : "░░░░░░",
+    "id" : "24",
+    "image":"http://localhost:8080/images/Sombra.png",
     "age" : "30",
     "occupation": "Hacker",
     "origin": "Dorado, Mexico",
     "affiliation": "Talon, Los Muertos (formerly)",
     "tagline": "EVERYTHING CAN BE HACKED… AND EVERYONE.",
-    "backstory" : "Long before she took up the alias 'Sombra', ░░░░░░ was among the thousands of children who were left orphaned in the aftermath of the Omnic Crisis. With much of her country's infrastructure destroyed, she survived by utilizing her natural gifts with hacking and computers. Following her many conquests, ░░░░░░ was supremely confident in her skills, but she was caught unprepared when she stumbled into the web of a global conspiracy—one that had also noticed her. With her security irreparably compromised, ░░░░░░ was forced to delete all traces of her identity and went into hiding. She later reemerged as Sombra, upgraded and determined to find out the truth behind the conspiracy she had uncovered. Sombra launched an even more audacious string of hacks, and her exploits earned her no shortage of admirers, including Talon. She joined the organization's ranks and is believed to have contributed to its massive cyberattacks against corporations with strong ties to their governments. "
+    "backstory" : "Long before she took up the alias 'Sombra', ░░░░░░ was among the thousands of children who were left orphaned in the aftermath of the Omnic Crisis. With much of her country's infrastructure destroyed, she survived by utilizing her natural gifts with hacking and computers. Following her many conquests, ░░░░░░ was supremely confident in her skills, but she was caught unprepared when she stumbled into the web of a global conspiracy—one that had also noticed her. With her security irreparably compromised, ░░░░░░ was forced to delete all traces of her identity and went into hiding. She later reemerged as Sombra, upgraded and determined to find out the truth behind the conspiracy she had uncovered. Sombra launched an even more audacious string of hacks, and her exploits earned her no shortage of admirers, including Talon. She joined the organization's ranks and is believed to have contributed to its massive cyberattacks against corporations with strong ties to their governments. ",
+    "styleClass": "sombra-dps"
   },
   {
     "name" : "Satya Vaswani",
+    "id" : "25",
+    "image":"http://localhost:8080/images/Symmetra.png",
     "age" : "28",
     "occupation": "Architech",
     "origin": "Utopaea, India",
     "affiliation": "Vishkar Corporation",
     "tagline": "THE TRUE ENEMY OF HUMANITY IS DISORDER.",
-    "backstory" : "Following the Omnic Crisis, the Vishkar Corporation of southern India began the laborious process of creating new, self-sustaining cities to house the nation's displaced population. One such city, Utopaea, was created using radical hard-light technology that enabled its architechs to shape the city's streets, utilities, and living spaces in the blink of an eye. After she was identified as one of the few capable of becoming a light-bending architech, young Satya Vaswani was plucked from extreme poverty and placed in the care of Vishkar's architech academy, never to return home. Though she was one of Utopaea's top architechs, the Vishkar Corporation saw far greater potential in Satya's abilities. Giving her the moniker 'Symmetra', Vishkar sent her on clandestine missions around the world to uphold its corporate interests and expand its influence into other countries."
+    "backstory" : "Following the Omnic Crisis, the Vishkar Corporation of southern India began the laborious process of creating new, self-sustaining cities to house the nation's displaced population. One such city, Utopaea, was created using radical hard-light technology that enabled its architechs to shape the city's streets, utilities, and living spaces in the blink of an eye. After she was identified as one of the few capable of becoming a light-bending architech, young Satya Vaswani was plucked from extreme poverty and placed in the care of Vishkar's architech academy, never to return home. Though she was one of Utopaea's top architechs, the Vishkar Corporation saw far greater potential in Satya's abilities. Giving her the moniker 'Symmetra', Vishkar sent her on clandestine missions around the world to uphold its corporate interests and expand its influence into other countries.",
+    "styleClass": "symmetra-dps"
   },
   {
     "name" : "Torbjörn Lindholm",
+    "id" : "26",
+    "image":"http://localhost:8080/images/Torbjorn.png",
     "age" : "57",
     "occupation": "Weapons Designer",
     "origin": "Gothenburg, Sweden",
     "affiliation": "Overwatch",
     "tagline": "BUILD ‘EM UP, BREAK ‘EM DOWN.",
-    "backstory" : "Before the Omnic Crisis, Torbjörn had gained notoriety for designing weapons systems used by countries around the world. Torbjörn had a deep mistrust of sentient robotic intelligence, and while many of his peers wrote this off as paranoia, his worst fears were realized when the robot populations of the world turned against their human creators during the Omnic Crisis. Because of his engineering genius, he was recruited to join the original Overwatch strike team, and his many inventions proved integral to ending the crisis. But in the aftermath of Overwatch's fall, many of Torbjörn's weapons were stolen or stashed away around the world. Feeling responsible for his creations, Torbjörn is determined to stop them from falling into the wrong hands and wreaking havoc on the innocent."
+    "backstory" : "Before the Omnic Crisis, Torbjörn had gained notoriety for designing weapons systems used by countries around the world. Torbjörn had a deep mistrust of sentient robotic intelligence, and while many of his peers wrote this off as paranoia, his worst fears were realized when the robot populations of the world turned against their human creators during the Omnic Crisis. Because of his engineering genius, he was recruited to join the original Overwatch strike team, and his many inventions proved integral to ending the crisis. But in the aftermath of Overwatch's fall, many of Torbjörn's weapons were stolen or stashed away around the world. Feeling responsible for his creations, Torbjörn is determined to stop them from falling into the wrong hands and wreaking havoc on the innocent.",
+    "styleClass": "torbjorn-dps"
   },
   {
     "name" : "Lena Oxton",
+    "id" : "27",
+    "image":"http://localhost:8080/images/Tracer.png",
     "age" : "26",
     "occupation": "Adventurer",
     "origin": "London, England",
     "affiliation": "Overwatch",
     "tagline": "CHEERS, LOVE! THE CAVALRY’S HERE!",
-    "backstory" : "Lena Oxton was the youngest person ever inducted into Overwatch's experimental flight program. Known for her fearless piloting skills, she was handpicked to test the prototype of a teleporting fighter, the Slipstream. But during its first flight, the aircraft's teleportation matrix malfunctioned, and it disappeared. Lena was presumed dead. She reappeared months later, but her ordeal had greatly changed her: her molecules had been desynchronized from the flow of time. Suffering from 'chronal disassociation', she was a living ghost, disappearing for hours and days at a time. Even for the brief moments she was present, she was unable to maintain physical form. Overwatch's doctors and scientists were stumped, and Tracer's case seemed hopeless until a scientist named Winston designed the chronal accelerator, a device capable of keeping Tracer anchored in the present. In addition, it gave Tracer the ability to control her own time, allowing her to speed it up and slow it down at will. With her newfound skills, she became one of Overwatch's most effective agents."
+    "backstory" : "Lena Oxton was the youngest person ever inducted into Overwatch's experimental flight program. Known for her fearless piloting skills, she was handpicked to test the prototype of a teleporting fighter, the Slipstream. But during its first flight, the aircraft's teleportation matrix malfunctioned, and it disappeared. Lena was presumed dead. She reappeared months later, but her ordeal had greatly changed her: her molecules had been desynchronized from the flow of time. Suffering from 'chronal disassociation', she was a living ghost, disappearing for hours and days at a time. Even for the brief moments she was present, she was unable to maintain physical form. Overwatch's doctors and scientists were stumped, and Tracer's case seemed hopeless until a scientist named Winston designed the chronal accelerator, a device capable of keeping Tracer anchored in the present. In addition, it gave Tracer the ability to control her own time, allowing her to speed it up and slow it down at will. With her newfound skills, she became one of Overwatch's most effective agents.",
+    "styleClass": "tracer-dps"
   },
   {
     "name" : "Amélie Lacroix",
+    "id" : "28",
+    "image":"http://localhost:8080/images/Widowmaker.png",
     "age" : "33",
     "occupation": "Assassin",
     "origin": "Annecy, France",
     "affiliation": "Talon",
     "tagline": "ONE SHOT, ONE KILL.",
-    "backstory" : "It is believed that in her former life, Widowmaker was married to Gérard Lacroix, an Overwatch agent spearheading operations against the Talon terrorist organization. After several unsuccessful attempts to eliminate Gérard, Talon decided to change its focus to his wife, Amélie. Talon operatives kidnapped her and subjected her to an intense program of neural reconditioning. They broke her will, suppressed her personality, and reprogrammed her as a sleeper agent. She was eventually found by Overwatch agents, apparently none the worse for wear, and returned to her normal life. Two weeks later she killed Gérard in his sleep. Her mission complete, Amélie returned to Talon, and they completed the process of turning her into a living weapon. She was given extensive training in the covert arts, and then her physiology was altered, drastically slowing her heart, which turned her skin cold and blue and numbed her ability to experience human emotion. Amélie was gone."
+    "backstory" : "It is believed that in her former life, Widowmaker was married to Gérard Lacroix, an Overwatch agent spearheading operations against the Talon terrorist organization. After several unsuccessful attempts to eliminate Gérard, Talon decided to change its focus to his wife, Amélie. Talon operatives kidnapped her and subjected her to an intense program of neural reconditioning. They broke her will, suppressed her personality, and reprogrammed her as a sleeper agent. She was eventually found by Overwatch agents, apparently none the worse for wear, and returned to her normal life. Two weeks later she killed Gérard in his sleep. Her mission complete, Amélie returned to Talon, and they completed the process of turning her into a living weapon. She was given extensive training in the covert arts, and then her physiology was altered, drastically slowing her heart, which turned her skin cold and blue and numbed her ability to experience human emotion. Amélie was gone.",
+    "styleClass": "widow-dps"
   },
   {
     "name" : "Winston",
+    "id" : "29",
+    "image":"http://localhost:8080/images/Winston.png",
     "age" : "29",
     "occupation": "Scientist, Adventurer",
     "origin": "Horizon Lunar Colony",
     "affiliation": "Overwatch",
     "tagline": "IMAGINATION IS THE ESSENCE OF DISCOVERY.",
-    "backstory" : "The Horizon Lunar Colony was established as a first step for humanity's renewed exploration of space. Among its residents was a group of genetically enhanced gorillas that were intended to test the effects of prolonged habitation in space. One gorilla displayed such rapid brain development from the gene therapy that he was taken under the wing of Dr. Harold Winston, who taught him science and inspired him with tales of human ingenuity. But his life was thrown into chaos when the other gorillas led an uprising, killed the mission scientists, and claimed the colony for their own. Taking on the name of his beloved human caretaker, Winston built a makeshift rocket and escaped to Earth. There he found a new home with Overwatch, an organization that represented everything he had come to admire about humanity. Now with the fall of Overwatch, Winston has gone into seclusion."
+    "backstory" : "The Horizon Lunar Colony was established as a first step for humanity's renewed exploration of space. Among its residents was a group of genetically enhanced gorillas that were intended to test the effects of prolonged habitation in space. One gorilla displayed such rapid brain development from the gene therapy that he was taken under the wing of Dr. Harold Winston, who taught him science and inspired him with tales of human ingenuity. But his life was thrown into chaos when the other gorillas led an uprising, killed the mission scientists, and claimed the colony for their own. Taking on the name of his beloved human caretaker, Winston built a makeshift rocket and escaped to Earth. There he found a new home with Overwatch, an organization that represented everything he had come to admire about humanity. Now with the fall of Overwatch, Winston has gone into seclusion.",
+    "styleClass": "winston-tank"
   },
   {
     "name" : "Hammond",
+    "id" : "30",
+    "image":"http://localhost:8080/images/WreckingBall.png",
     "age" : "14",
     "occupation": "Mech Pilot, Mechanic",
     "origin": "Horizon Lunar Colony (formerly), Junkertown (formerly)",
     "affiliation": "None",
     "tagline": "DO NOT ANGER THE HAMSTER.",
-    "backstory" : "While most of the test subjects on Horizon Lunar Colony were gorillas or other primates, there were some exceptions, including a hamster named Hammond. Hammond would frequently escape into different parts of the moon base. Though they'd always find him and return him to his cell, they never figured out the true purpose behind his nightly escapades. What they didn't know was that Hammond was busy teaching himself the skills of a mechanic. The colony was eventually thrown into chaos when some of the gorillas rose up against the human scientists and took control. Not all of the animals participated, however, and one of the gorillas, Winston, was making a plan to escape to earth. Hammond sensed his opportunity. He built a makeshift capsule and secretly hitched it to Winston's craft as the gorilla blasted off. As the two entered earth's atmosphere, Hammond broke off and landed in a different location: the wasteland of the Australian Outback. Hammond modified his escape pod to enter the lucrative mech battle arena of the Scrapyard. Working his way up the ranks, 'Wrecking Ball' went from contender to champion, though the pilot's identity remained a mystery to all. Gathering his winnings, Hammond was able to upgrade his mech enough to survive the dangerous trek out of the Junker-controlled Outback."
+    "backstory" : "While most of the test subjects on Horizon Lunar Colony were gorillas or other primates, there were some exceptions, including a hamster named Hammond. Hammond would frequently escape into different parts of the moon base. Though they'd always find him and return him to his cell, they never figured out the true purpose behind his nightly escapades. What they didn't know was that Hammond was busy teaching himself the skills of a mechanic. The colony was eventually thrown into chaos when some of the gorillas rose up against the human scientists and took control. Not all of the animals participated, however, and one of the gorillas, Winston, was making a plan to escape to earth. Hammond sensed his opportunity. He built a makeshift capsule and secretly hitched it to Winston's craft as the gorilla blasted off. As the two entered earth's atmosphere, Hammond broke off and landed in a different location: the wasteland of the Australian Outback. Hammond modified his escape pod to enter the lucrative mech battle arena of the Scrapyard. Working his way up the ranks, 'Wrecking Ball' went from contender to champion, though the pilot's identity remained a mystery to all. Gathering his winnings, Hammond was able to upgrade his mech enough to survive the dangerous trek out of the Junker-controlled Outback.",
+    "styleClass": "wreckingball-tank"
   },
   {
     "name" : "Aleksandra Zaryanova",
+    "id" : "31",
+    "image":"http://localhost:8080/images/Zarya.png",
     "age" : "28",
     "occupation": "Soldier",
     "origin": "Krasnoyarsk Front, Russia",
     "affiliation": "Russian Defense Forces",
     "tagline": "TOGETHER WE ARE STRONG.",
-    "backstory" : "Aleksandra was born in a remote Siberian village that was on the front lines of the Omnic Crisis, which began some thirty years ago. Although Russian forces defeated the robots and shut down their omnium, the region was devastated by the conflict. Focusing on weightlifting and bodybuilding, Aleksandra was identified by the national athletics program as a potential star. She trained extensively, moving up the ranks while representing her country, and was expected to shatter longstanding records in the upcoming world championships. But on the eve of the tournament, an attack came from the long-dormant Siberian omnium, and her village was thrust into war once again. Aleksandra immediately withdrew from the competition and rushed home to enlist in the local defense forces, sacrificing the life of fame and fortune she might have had. "
+    "backstory" : "Aleksandra was born in a remote Siberian village that was on the front lines of the Omnic Crisis, which began some thirty years ago. Although Russian forces defeated the robots and shut down their omnium, the region was devastated by the conflict. Focusing on weightlifting and bodybuilding, Aleksandra was identified by the national athletics program as a potential star. She trained extensively, moving up the ranks while representing her country, and was expected to shatter longstanding records in the upcoming world championships. But on the eve of the tournament, an attack came from the long-dormant Siberian omnium, and her village was thrust into war once again. Aleksandra immediately withdrew from the competition and rushed home to enlist in the local defense forces, sacrificing the life of fame and fortune she might have had. ",
+    "styleClass": "zarya-tank"
   },
   {
     "name" : "Tekhartha Zenyatta",
+    "id" : "32",
+    "image":"http://localhost:8080/images/Zenyatta.png",
     "age" : "20",
     "occupation": "Wandering Guru, Adventurer",
     "origin": "Shambali Monastery, Nepal (formerly)",
     "affiliation": "The Shambali (formerly)",
     "tagline": "TRUE SELF IS WITHOUT FORM.",
-    "backstory" : "Years ago, following the Omnic Crisis, a group of outcast omnic robots experienced what they described as a spiritual awakening. They abandoned their preprogrammed lives to establish a communal monastery deep in the Himalayas. After many years of meditation on the nature of existence, they came to the belief that they were more than artificial intelligences and that, like humans, they possessed the essence of a soul. Tekhartha Mondatta, sought to heal the wounds caused by the Omnic Crisis a generation earlier and bring humans and robots back into societal harmony. Their message was embraced by millions around the world, and they became global celebrities. But one monk, Zenyatta, disagreed with this new direction. He believed that the way to repair the problems between humans and omnics was not through dogmatic teaching but through interpersonal connection and engagement. Ultimately, Zenyatta followed his own path. He chose to leave the monastery and wander the world, helping those he meets to overcome their personal struggles and find inner peace."
+    "backstory" : "Years ago, following the Omnic Crisis, a group of outcast omnic robots experienced what they described as a spiritual awakening. They abandoned their preprogrammed lives to establish a communal monastery deep in the Himalayas. After many years of meditation on the nature of existence, they came to the belief that they were more than artificial intelligences and that, like humans, they possessed the essence of a soul. Tekhartha Mondatta, sought to heal the wounds caused by the Omnic Crisis a generation earlier and bring humans and robots back into societal harmony. Their message was embraced by millions around the world, and they became global celebrities. But one monk, Zenyatta, disagreed with this new direction. He believed that the way to repair the problems between humans and omnics was not through dogmatic teaching but through interpersonal connection and engagement. Ultimately, Zenyatta followed his own path. He chose to leave the monastery and wander the world, helping those he meets to overcome their personal struggles and find inner peace.",
+    "styleClass": "zenyatta-heals"
   }
 ]
