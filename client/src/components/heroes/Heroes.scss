@@ -1,24 +1,77 @@
 @use '../../partials/typography.scss' as *;
 
 .heroes {
-    height: 100%;
     font-family: 'Roboto';
+    padding: 2rem;
 
     &__img {
-        height: 10rem;
-        width: 5rem;
+        height: 25rem;
+        width: 25rem;
         object-fit: contain;
+    }
+
+    &__name {
+        font-family: 'BigNoodleTitling';
+        font-size: 3rem;
+        margin: 0;
+    }
+
+    &__tagline {
+        font-family: 'BigNoodleTitling';
+        font-size: 3rem;
+    }
+
+    &__age {
+        font-size: 2rem;
+        margin-top: 1rem;
+    }
+
+    &__info-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
 }
 
 .ana-heals {
-    background-color: rgba(124, 110, 94, 0.7);
-
-    &__name {
-        color: wheat;
-    }
+    background-color: rgba(124, 110, 94, 0.555);
+    height: 100%;
 }
 
-.ana-heals__name {
-    font-family: 'BigNoodleTitling', sans-serif;
+.ashe-dps {
+    background-color: rgba(126, 126, 126, 0.616);
+}
+
+.baptiste-heals {
+    background-color: rgba(0, 107, 139, 0.507);
+}
+
+.bastion-dps {
+    background-color: rgba(27, 87, 15, 0.507);
+}
+
+.brigitte-heals {
+    background-color: rgba(155, 114, 1, 0.507);
+}
+
+.dva-tank {
+    background-color: rgba(134, 53, 101, 0.507);
+}
+
+.doomfist-dps {
+    background-color: rgba(61, 0, 0, 0.849);
+}
+
+.echo-dps {
+    background-color: rgba(155, 224, 224, 0.486)
+}
+
+.genji-dps {
+    background-color: rgba(157, 224, 155, 0.486)
+}
+
+.hanzo-dps {
+    background-color: rgba(5, 7, 121, 0.274)
 }
