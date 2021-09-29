@@ -12,20 +12,24 @@ function Welcome() {
             <div className='letters__top' />
                 <span className='letters__overwatch'>
                 <Parallax
-                    // x={['-100px', '100px']}
                     className='letters__individual'
                 >
-                    overwatch fanwiki
+                    to overwatch fanwiki
                 </Parallax>
                 </span>
             <div className='letters__bottom' />
         </div>
     </Parallax>
 
+    
+
 
     return (
         <main className='welcome'>
-            <h1 className='welcome__title'>Welcome to</h1>
+            <div className="welcome__title animate">
+                <div>Welcome</div>
+                <span>Welcome</span>
+            </div>
             {overwatchRendered}
             <IconScroll/>
         </main>

@@ -15,10 +15,10 @@ function Heroes({ heroes }) {
                     </div>
                 </Parallax>
                 <div className='heroes__info-container'>
-                    <h2 className='heroes__age'>AGE {hero.age}</h2>
-                    <p>Origin: {hero.origin}</p>
-                    <p>Occupation: {hero.occupation}</p>
-                    <p>Affiliation: {hero.affiliation}</p>
+                    <p className='heroes__info'>Age: {hero.age}</p>
+                    <p className='heroes__info'>Origin: {hero.origin}</p>
+                    <p className='heroes__info'>Occupation: {hero.occupation}</p>
+                    <p className='heroes__info'>Affiliation: {hero.affiliation}</p>
                     <p className='heroes__backstory'>{hero.backstory}</p>
                 </div>
             </div>

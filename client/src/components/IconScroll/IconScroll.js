@@ -17,7 +17,7 @@ class IconScroll extends Component {
     }
 
     componentDidMount() {
-    const checkpoint = 600;
+    const checkpoint = 1100;
 
     window.addEventListener('scroll', () => {
         const currentScroll = window.scrollY ;

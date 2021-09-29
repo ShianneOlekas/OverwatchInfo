@@ -1,10 +1,7 @@
-@keyframes fadeIn {
-    from { opacity: 0;}
-    to {opacity: 1;}
-}
+@use '../../partials/animations.scss' as *;
 
 .welcome {
-    height: 200vh;
+    height: 175vh;
     background-color: rgba(0, 0, 0, 0.904);
     display: flex;
     flex-direction: column;
@@ -15,8 +12,31 @@
         padding-top: 5rem;
         font-family: 'BigNoodleTitling';
         color: white;
-        font-size: 7rem;
-        animation: fadeIn linear 3s;
+        font-size: 15rem;
+        position: relative;
+        z-index: 2;
+        text-shadow: 5px 5px 1px black;
+
+        span {
+            display: block;
+            position: absolute;
+        -webkit-text-stroke-width: 5px;
+        -webkit-text-stroke-color: gold;
+            top: 0;
+            left: 0;
+            z-index: -1;
+            color: gold;
+            opacity: 0;
+            margin-top: 5rem;
+        }
+    }
+}
+
+.welcome__title.animate {
+    animation: zoom 4s cubic-bezier(0.21, 0.41, 0.42, 0.43) forwards;
+
+    span {
+        animation: stutter 0.4s 2 0.5s;
     }
 }
 
@@ -27,6 +47,7 @@
     justify-content: center;
     align-items: center;
     height: 50vh;
+    animation: fadeIn linear 4s;
 
     &__overwatch {
         margin: 0.2em 0;
@@ -37,25 +58,25 @@
     &__individual {
         display: inline-block;
         position: relative;
-        font-size: 3rem;
+        font-size: 4rem;
         text-transform: uppercase;
         font-family: 'BigNoodleTitling';
     }
 
     &__top {
         margin-left: 0.8em;
-        width: 30em;
+        width: 35em;
         height: 1.5em;
-        border-top: 0.45em solid white;
-        border-bottom: 0.45em solid white;
+        border-top: 0.45em solid gold;
+        border-bottom: 0.45em solid gold;
         transform: skew(-10deg);
     }
 
     &__bottom {
-        width: 30em;
+        width: 35em;
         height: 1.5em;
-        border-top: 0.45em solid white;
-        border-bottom: 0.45em solid white;
+        border-top: 0.45em solid gold;
+        border-bottom: 0.45em solid gold;
         transform: skew(-10deg);
         margin-left: 0;
         margin-right: 0.8em;
