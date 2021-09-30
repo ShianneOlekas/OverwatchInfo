@@ -1,5 +1,7 @@
 [
   {"name" : "Ana Amari",
+    "hero" : "Ana",
+    "icon" : "http://localhost:8080/playerIcon/Ana_Face.png",
     "id" : "1",
     "image":"http://localhost:8080/images/Ana.png",
     "age" : "60",
@@ -12,6 +14,8 @@
   },
   
   {"name" : "Elizabeth Caledonia 'Calamity' Ashe",
+    "hero" : "Ashe",
+    "icon" : "http://localhost:8080/playerIcon/Ashe_Face.png",
     "id" : "2",
     "image":"http://localhost:8080/images/Ashe.png",
     "age" : "39",
@@ -24,6 +28,8 @@
   },
   {
     "name" : "Jean-Baptiste Augustin",
+    "hero" : "Baptiste",
+    "icon" : "http://localhost:8080/playerIcon/Baptiste_Face.png",
     "id" : "3",
     "image":"http://localhost:8080/images/Baptiste.png",
     "age" : "36",
@@ -36,6 +42,8 @@
   },
   {
     "name" : "SST Laboratories Siege Automaton E54, 'Bastion'",
+    "hero" : "Bastion",
+    "icon" : "http://localhost:8080/playerIcon/Bastion_Face.png",
     "id" : "4",
     "image":"http://localhost:8080/images/Bastion.png",
     "age" : "30",
@@ -48,6 +56,8 @@
   },
   {
     "name" : "Brigitte Lindholm",
+    "hero" : "Brigitte",
+    "icon" : "http://localhost:8080/playerIcon/Brigitte_Face.png",
     "id" : "5",
     "image":"http://localhost:8080/images/Brigitte.png",
     "age" : "23",
@@ -60,6 +70,8 @@
   },
   {
     "name" : "Hana Song",
+    "hero" : "D.va",
+    "icon" : "http://localhost:8080/playerIcon/Dva_Face.png",
     "id" : "6",
     "image":"http://localhost:8080/images/Dva.png",
     "age" : "19",
@@ -72,6 +84,8 @@
   },
   {
     "name" : "Akande Ogundimu",
+    "hero" : "Doomfist",
+    "icon" : "http://localhost:8080/playerIcon/Doomfist_Face.png",
     "id" : "7",
     "image":"http://localhost:8080/images/Doomfist.png",
     "age" : "45",
@@ -84,6 +98,8 @@
   },
   {
     "name" : "Echo",
+    "hero" : "Echo",
+    "icon" : "http://localhost:8080/playerIcon/Echo_Face.png",
     "id" : "8",
     "image":"http://localhost:8080/images/Echo.png",
     "age" : "Classified",
@@ -96,6 +112,8 @@
   },
   {
     "name" : "Genji Shimada",
+    "hero" : "Genji",
+    "icon" : "http://localhost:8080/playerIcon/Genji_Face.png",
     "id" : "9",
     "image":"http://localhost:8080/images/Genji.png",
     "age" : "35",
@@ -108,6 +126,8 @@
   },
   {
     "name" : "Hanzo Shimada",
+    "hero" : "Hanzo",
+    "icon" : "http://localhost:8080/playerIcon/Hanzo_Face.png",
     "id" : "10",
     "image":"http://localhost:8080/images/Hanzo.png",
     "age" : "38",
@@ -120,6 +140,8 @@
   },
   {
     "name" : "Jamison Fawkes",
+    "hero" : "Junkrat",
+    "icon" : "http://localhost:8080/playerIcon/Junkrat_Face.png",
     "id" : "11",
     "image":"http://localhost:8080/images/Junkrat.png",
     "age" : "25",
@@ -132,6 +154,8 @@
   },
   {
     "name" : "Lúcio Correia dos Santos",
+    "hero" : "Lúcio",
+    "icon" : "http://localhost:8080/playerIcon/Lucio_Face.png",
     "id" : "12",
     "image":"http://localhost:8080/images/Lucio.png",
     "age" : "26",
@@ -144,10 +168,12 @@
   },
   {
     "name" : "Jesse McCree",
+    "hero" : "McCree",
+    "icon" : "http://localhost:8080/playerIcon/McCree_Face.png",
     "id" : "13",
     "image":"http://localhost:8080/images/Mccree.png",
     "age" : "37",
-    "occupation": "Jesse McCree",
+    "occupation": "Factory Worker (formerly), Criminal (formerly), Overwatch Agent",
     "origin": "Santa Fe, New Mexico, USA",
     "affiliation": "Overwatch",
     "tagline": "JUSTICE AIN'T GONNA DISPENSE ITSELF.",
@@ -156,6 +182,8 @@
   },
   {
     "name" : "Mei-Ling Zhou",
+    "hero" : "Mei",
+    "icon" : "http://localhost:8080/playerIcon/Mei_Face.png",
     "id" : "14",
     "image":"http://localhost:8080/images/Mei.png",
     "age" : "31",
@@ -168,6 +196,8 @@
   },
   {
     "name" : "Angela Ziegler",
+    "hero" : "Mercy",
+    "icon" : "http://localhost:8080/playerIcon/Mercy_Face.png",
     "id" : "15",
     "image":"http://localhost:8080/images/Mercy.png",
     "age" : "37",
@@ -180,6 +210,8 @@
   },
   {
     "name" : "Moira O’Deorain",
+    "hero" : "Moira",
+    "icon" : "http://localhost:8080/playerIcon/Moira_Face.png",
     "id" : "16",
     "image":"http://localhost:8080/images/Moira.png",
     "age" : "48",
@@ -192,6 +224,8 @@
   },
   {
     "name" : "Orisa",
+    "hero" : "Orisa",
+    "icon" : "http://localhost:8080/playerIcon/Orisa_Face.png",
     "id" : "17",
     "image":"http://localhost:8080/images/Orisa.png",
     "age" : "1 month",
@@ -204,6 +238,8 @@
   },
   {
     "name" : "Fareeha Amari",
+    "hero" : "Pharah",
+    "icon" : "http://localhost:8080/playerIcon/Pharah_Face.png",
     "id" : "18",
     "image":"http://localhost:8080/images/Pharah.png",
     "age" : "32",
@@ -216,6 +252,8 @@
   },
   {
     "name" : "Gabriel Reyes",
+    "hero" : "Reaper",
+    "icon" : "http://localhost:8080/playerIcon/Reaper_Face.png",
     "id" : "19",
     "image":"http://localhost:8080/images/Reaper.png",
     "age" : "58",
@@ -228,6 +266,8 @@
   },
   {
     "name" : "Reinhardt Wilhelm",
+    "hero" : "Reinhardt",
+    "icon" : "http://localhost:8080/playerIcon/Reinhardt_Face.png",
     "id" : "20",
     "image":"http://localhost:8080/images/Reinhardt.png",
     "age" : "61",
@@ -240,6 +280,8 @@
   },
   {
     "name" : "Mako Rutledge",
+    "hero" : "Roadhog",
+    "icon" : "http://localhost:8080/playerIcon/Roadhog_Face.png",
     "id" : "21",
     "image":"http://localhost:8080/images/Roadhog.png",
     "age" : "48",
@@ -252,6 +294,8 @@
   },
   {
     "name" : "Siebren de Kuiper",
+    "hero" : "Sigma",
+    "icon" : "http://localhost:8080/playerIcon/Sigma_Face.png",
     "id" : "22",
     "image":"http://localhost:8080/images/Sigma.png",
     "age" : "62",
@@ -264,6 +308,8 @@
   },
   {
     "name" : "Jack Morrison",
+    "hero" : "Soldier 76",
+    "icon" : "http://localhost:8080/playerIcon/S76_Face.png",
     "id" : "23",
     "image":"http://localhost:8080/images/Soldier76.png",
     "age" : "55",
@@ -276,6 +322,8 @@
   },
   {
     "name" : "░░░░░░",
+    "hero" : "Sombra",
+    "icon" : "http://localhost:8080/playerIcon/Sombra_Face.png",
     "id" : "24",
     "image":"http://localhost:8080/images/Sombra.png",
     "age" : "30",
@@ -288,6 +336,8 @@
   },
   {
     "name" : "Satya Vaswani",
+    "hero" : "Symmetra",
+    "icon" : "http://localhost:8080/playerIcon/Symmetra_Face.png",
     "id" : "25",
     "image":"http://localhost:8080/images/Symmetra.png",
     "age" : "28",
@@ -300,6 +350,8 @@
   },
   {
     "name" : "Torbjörn Lindholm",
+    "hero" : "Torbjörn",
+    "icon" : "http://localhost:8080/playerIcon/Torbjorn_Face.png",
     "id" : "26",
     "image":"http://localhost:8080/images/Torbjorn.png",
     "age" : "57",
@@ -312,6 +364,8 @@
   },
   {
     "name" : "Lena Oxton",
+    "hero" : "Tracer",
+    "icon" : "http://localhost:8080/playerIcon/Tracer_Face.png",
     "id" : "27",
     "image":"http://localhost:8080/images/Tracer.png",
     "age" : "26",
@@ -324,6 +378,8 @@
   },
   {
     "name" : "Amélie Lacroix",
+    "hero" : "Widowmaker",
+    "icon" : "http://localhost:8080/playerIcon/Widowmaker_Face.png",
     "id" : "28",
     "image":"http://localhost:8080/images/Widowmaker.png",
     "age" : "33",
@@ -336,6 +392,8 @@
   },
   {
     "name" : "Winston",
+    "hero" : "Winston",
+    "icon" : "http://localhost:8080/playerIcon/Winston_Face.png",
     "id" : "29",
     "image":"http://localhost:8080/images/Winston.png",
     "age" : "29",
@@ -348,6 +406,8 @@
   },
   {
     "name" : "Hammond",
+    "hero" : "Wrecking Ball",
+    "icon" : "http://localhost:8080/playerIcon/WreckingBall_Face.png",
     "id" : "30",
     "image":"http://localhost:8080/images/WreckingBall.png",
     "age" : "14",
@@ -360,6 +420,8 @@
   },
   {
     "name" : "Aleksandra Zaryanova",
+    "hero" : "Zarya",
+    "icon" : "http://localhost:8080/playerIcon/Zarya_Face.png",
     "id" : "31",
     "image":"http://localhost:8080/images/Zarya.png",
     "age" : "28",
@@ -372,6 +434,8 @@
   },
   {
     "name" : "Tekhartha Zenyatta",
+    "hero" : "Zenyatta",
+    "icon" : "http://localhost:8080/playerIcon/Zenyatta_Face.png",
     "id" : "32",
     "image":"http://localhost:8080/images/Zenyatta.png",
     "age" : "20",

@@ -1,4 +1,4 @@
-import './Heroes.scss'
+import './Heroes.scss';
 import { Parallax } from 'react-scroll-parallax';
 
 function Heroes({ heroes }) {
@@ -26,7 +26,7 @@ function Heroes({ heroes }) {
 
     return (
         <main className='all-heroes'>
-                {heroesRendered}
+            {heroesRendered}
         </main>
     );
 }

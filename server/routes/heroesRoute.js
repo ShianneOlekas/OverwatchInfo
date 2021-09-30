@@ -15,6 +15,8 @@ router.get('/', (_req, res) => {
         const heroData = getHeroes().map((hero) => {
             return {
                 name: hero.name,
+                hero: hero.hero,
+                icon: hero.icon,
                 image: hero.image,
                 age: hero.age,
                 occupation: hero.occupation,
@@ -33,8 +35,8 @@ router.get('/', (_req, res) => {
 
 // router.get('/:id', (req, res) => {
 //     try {
-//         const videoData = getVideoData().find(video => video.id === req.params.id)
-//     return res.status(200).json(videoData)
+//         const heroData = getHeroData().find(hero => hero.id === req.params.id)
+//     return res.status(200).json(heroData)
 //     } catch(err) {
 //         return res.status(500).json({error: 'file cant be read'})
 //     }
